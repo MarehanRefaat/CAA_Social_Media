@@ -15,15 +15,12 @@ import dash_html_components as html
 import plotly.express as px
 import pandas as pd
 import datetime
-
 import time
 import random
 from dash.dependencies import Input, Output
-import datetime
+
 
   
-# Generates a random number between
-# a given positive range
 app = dash.Dash(__name__)
 cpu = []
 memory = []
